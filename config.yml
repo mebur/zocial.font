@@ -104,11 +104,10 @@ font:
 
 glyphs:
   -
-    css: aim
-    file: aol
+    css: aol
     code: 0x22
     uid: 86009860c8331a1d90ae269432d6e24f
-    search: [aol, messenger]
+    search: [aim, aol, messenger]
   -
     css: delicious
     code: 0x23
@@ -145,17 +144,15 @@ glyphs:
   #  uid: 4b18775e2b9d532b915423af84bcbd2b
   #  search: []
   -
-    css: smashmag
-    file: smashing
+    css: smashing
     code: 0x2a
     uid: 5556b88a0dc630940f326ab2ffbe7ccc
     search: [smashmag, smashing]
   -
-    css: gplus
-    file: googleplus
+    css: googleplus
     code: 0x2b
     uid: e566d3f1d24f22981f6552d5188e7265
-    search: [google, plus]
+    search: [google, plus, gplus]
   -
     css: wikipedia
     code: 0x2c
@@ -167,8 +164,7 @@ glyphs:
     uid: 846fae80e47217662041242ee1f15a83
     search: [lanyrd]
   -
-    css: calendar
-    file: cal
+    css: cal
     code: 0x2e
     uid: fe4b70ed76eb9a48877632032b33c942
     search: [calendar]
@@ -273,11 +269,10 @@ glyphs:
     uid: 2dd7e3046b63beb19616dce63c5782a6
     search: [blogger]
   -
-    css: cc
-    file: creativecommons
+    css: creativecommons
     code: 0x43
     uid: 959c9a2360ed00ec9c0a75562d30edc4
-    search: [creative commons]
+    search: [creative commons, cc]
   -
     css: dribbble
     code: 0x44
