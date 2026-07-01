@@ -104,11 +104,6 @@ font:
 
 glyphs:
   -
-    css: duckduckgo
-    code: 0x21
-    uid: 446acc3b40ca5654627ffb8bc6b906e7
-    search: [duckduckgo]
-  -
     css: aim
     file: aol
     code: 0x22
