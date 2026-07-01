@@ -39,7 +39,7 @@
 #
 # #
 # # Optional. You can apply global rescale + offset to all font glyphs.
-# # Param values ar 0..1, where 1 = 100%. 
+# # Param values ar 0..1, where 1 = 100%.
 # #
 # transform:
 #   baseline: 0.2                 # baseline for rescale symmetry. Default value
@@ -87,6 +87,8 @@ meta:
   columns: 4
 
 font:
+  version: "1.4.0"
+
   # use !!!small!!! letters a-z, or Opera will fail under OS X
   # fontname will be also used as file name.
   fontname: zocial
@@ -108,6 +110,7 @@ glyphs:
     search: [duckduckgo]
   -
     css: aim
+    file: aol
     code: 0x22
     uid: 86009860c8331a1d90ae269432d6e24f
     search: [aol, messenger]
@@ -148,11 +151,13 @@ glyphs:
   #  search: []
   -
     css: smashmag
+    file: smashing
     code: 0x2a
     uid: 5556b88a0dc630940f326ab2ffbe7ccc
     search: [smashmag, smashing]
   -
     css: gplus
+    file: googleplus
     code: 0x2b
     uid: e566d3f1d24f22981f6552d5188e7265
     search: [google, plus]
@@ -168,6 +173,7 @@ glyphs:
     search: [lanyrd]
   -
     css: calendar
+    file: cal
     code: 0x2e
     uid: fe4b70ed76eb9a48877632032b33c942
     search: [calendar]
@@ -273,6 +279,7 @@ glyphs:
     search: [blogger]
   -
     css: cc
+    file: creativecommons
     code: 0x43
     uid: 959c9a2360ed00ec9c0a75562d30edc4
     search: [creative commons]
@@ -676,6 +683,83 @@ glyphs:
     code: 0xEE
     uid: 2634442580bb3c5c7d87f30bed0227a8
     search: [lkdto]
-
-
-
+  -
+    css: askfm
+    code: 0xef
+    uid: 831849394173997f0a24b88f5565b7b2
+    search: [askfm]
+  -
+    css: betaseries
+    code: 0xf0
+    uid: a888602c1ab7e11b481f8935beedcb2e
+    search: [betaseries]
+  -
+    css: deviantart
+    code: 0xf1
+    uid: fb348417274cef3dde6706693a440dcf
+    search: [deviantart]
+  -
+    css: discordapp
+    code: 0xf2
+    uid: b48e0c8b9750d40361029e2c7bf1cd89
+    search: [discord]
+  -
+    css: gitlab
+    code: 0xf3
+    uid: c09a812b6f24e50abb75ad2242be586c
+    search: [gitlab]
+  -
+    css: houzz
+    code: 0xf4
+    uid: cb852a6ecd67e763e2f320b3d5c7be1c
+    search: [houzz]
+  -
+    css: joinme
+    code: 0xf5
+    uid: 6821997c8124c5fe9cc46ab583dbcfa6
+    search: [joinme, join.me]
+  -
+    css: logmein
+    code: 0xf6
+    uid: cbf4c432b177a694e69beade226a49a2
+    search: [logmein]
+  -
+    css: messenger
+    code: 0xf7
+    uid: e2a85a3833dde6e3aa4a1e36764f1b84
+    search: [messenger, facebook]
+  -
+    css: pandora
+    code: 0xf8
+    uid: 0d47c4d5ca915263f0e5b79d5e776e6b
+    search: [pandora]
+  -
+    css: persona
+    code: 0xf9
+    uid: 4db2a8620e2597e8d74244e8a7a5be0e
+    search: [persona, mozilla]
+  -
+    css: salesforce
+    code: 0xfa
+    uid: a1fde3ea28805efae8f1457096c7f59c
+    search: [salesforce]
+  -
+    css: slack
+    code: 0xfb
+    uid: fc462757f48df7640044c275e1508cb1
+    search: [slack]
+  -
+    css: twitch
+    code: 0xfc
+    uid: 737b3cd25287cc578c54f891b0d1caf6
+    search: [twitch]
+  -
+    css: www
+    code: 0xfd
+    uid: 02abedfd51a77a675150dea7c04f39c1
+    search: [www, web]
+  -
+    css: ycombinator
+    code: 0xfe
+    uid: b650289b3b1195cb21b7853d68aeaa0c
+    search: [ycombinator, hacker news]
