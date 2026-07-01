@@ -23,6 +23,10 @@ dump:
 	mkdir ./src/svg/
 	cp ./src/svg_orig/* ./src/svg/
 	${BIN}/svgo --config `pwd`/dump.svgo.mjs -f ./src/svg
+	@if [ -d ./src/svg_patch ] && [ -n "$$(ls -A ./src/svg_patch/*.svg 2>/dev/null)" ]; then \
+		echo "Applying patches from src/svg_patch/..."; \
+		cp ./src/svg_patch/*.svg ./src/svg/; \
+	fi
 
 
 font:
