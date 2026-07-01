@@ -20,6 +20,7 @@ export default {
     'moveElemsAttrsToGroup',
     'collapseGroups',
     'moveGroupAttrsToElems',
+    'convertShapeToPath',
     'convertTransform',
     {
       name: 'convertPathData',
