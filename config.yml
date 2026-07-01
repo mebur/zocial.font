@@ -189,11 +189,6 @@ glyphs:
     uid: 523e56b66e166a5bb7b823844bdf56e6
     search: [bitcoin]
   -
-    css: w3c
-    code: 0x33
-    uid: 288a62ca532f76053c4a834ba3746ea2
-    search: [w3c]
-  -
     css: foursquare
     code: 0x34
     uid: ffecc77dcd9b9dff653ff88b508220d4
@@ -439,11 +434,6 @@ glyphs:
     uid: d0ce443b8d7376716584f5f660a6bf72
     search: [dropbox]
   -
-    css: ebay
-    code: 0x65
-    uid: eae6db03eb0c9f2673a126967bf4d4ed
-    search: [ebay]
-  -
     css: facebook
     code: 0x66
     uid: 6f7586c6f99798c3c1de6123d1f6cfa9
@@ -452,11 +442,6 @@ glyphs:
     css: github
     code: 0x67
     uid: 9bba5df43e4e9419975336161e1810c3
-    search: [github]
-  -
-    css: github-circled
-    code: 0xE8
-    uid: ff16079eb4be12c49bf3014d2322acdd
     search: [github]
   -
     css: googleplay
@@ -654,20 +639,10 @@ glyphs:
     uid: 15a2a7646f0f7c0f129bee0f790d12fc
     search: [lego]
   -
-    css: login
-    code: 0xEB
-    uid: 1dabc07fb86333ee947c283f74ab5fc8
-    search: [login]
-  -
     css: stackoverflow
     code: 0xEC
     uid: e7d17d4d07756f4ab5eb690eea1275ca
     search: [stack overflow]
-  -
-    css: hackernews
-    code: 0xEd
-    uid: 054a8f79ee2dae6c1ba909cc0c6f0cf9
-    search: [hacker news]
   -
     css: lkdto
     code: 0xEE
