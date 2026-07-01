@@ -31,7 +31,7 @@ export default {
     },
     'removeEmptyAttrs',
     'removeEmptyContainers',
-    'mergePaths',
+    { name: 'mergePaths', params: { force: true } },
     'cleanupIds',
     'removeUnusedNS',
   ],
