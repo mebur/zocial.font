@@ -21,8 +21,8 @@ dist: font html
 dump:
 	rm -f -r ./src/svg/
 	mkdir ./src/svg/
-	${BIN}/svg-font-dump -c `pwd`/config.yml -f -i ./src/original/zocial-regular-webfont.svg -o ./src/svg/ -d diff.yml
-	${BIN}/svgo --config `pwd`/dump.svgo.yml -f ./src/svg
+	cp ./src/svg_orig/* ./src/svg/
+	${BIN}/svgo --config `pwd`/dump.svgo.mjs -f ./src/svg
 
 
 font:
@@ -63,7 +63,7 @@ gh-pages:
 		git commit -q -m 'refreshed gh-pages'
 	cd ${TMP_PATH} && \
 		git remote add remote ${REMOTE_REPO} && \
-		git push --force remote +master:gh-pages 
+		git push --force remote +master:gh-pages
 	rm -rf ${TMP_PATH}
 
 
